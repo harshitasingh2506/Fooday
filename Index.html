@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/kawaii-cupcake.png" type="image/x-icon">
+  <title>Fooday</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+ 
+</head>
+<style>
+body, html {
+  height: 100%;
+}
+.bg {
+  /* The image used */
+  background-image: url(/Background.jpg);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body class="bg">
+  
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/Index.html">Fooday</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Recipes.html">Our Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Contact_Us.html">About Me</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold">Fooday</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Hey guys, welcome to Fooday. Here you can get any type of food, any variety at affordable prices and we have a deal that if we could'nt deliver your food in just 30 mins we guarentee that you will only pay half the price. </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <a href="https://www.youtube.com/channel/UCWlBrNJ8MNz1hiXUcKv4SKQ" target="_blank">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">My Youtube channel</button></a>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="/My Images/S (1).png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="250" height="250" loading="lazy">
+      </div>
+    </div>
+  </div>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/My Images/fooddelivery.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Get amazing food</h5>
+          <p>at affordable prices.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/My Images/maneatingpizza300 (1).png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Get worldwide cuisine</h5>
+          <p>with awesome taste.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/My Images/orderfood.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Get your food in 30 mins</h5>
+          <p>or pay half the original price.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <h1 style="text-align: center;">Some of our food items.</h1>
+  <div class="container">
+    <div class="row">
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="/My Images/Pancake.png" class=card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pancake</h5>
+          <p class="card-text">If you want something delightful for yourself, Order a pancake.</p>
+          <p class="card-text">Price = ₹ 499 for two</p>
+          <a href="hhttps://www.swiggy.com/search?q=Pancake" class="btn btn-primary">Order Pancakes</a>
+        </div>
+      </div>
+
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="/My Images/Pizza.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pizza</h5>
+          <p class="card-text">Order all types or pizza, Mozzarella Cheese Pizza and many more.</p>
+          <p class="card-text">Price = ₹ 499 for two</p>
+          <a href="https://www.swiggy.com/restaurants/la-pinoz-pizza-c-scheme-raja-park-ashok-nagar-jaipur-83613" target="_blank" class="btn btn-primary">Order Pizza</a>
+        </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="/My Images/Cappachino.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cappuccino</h5>
+          <p class="card-text">Order a Cappuccino, for some of he boring days.</p>
+          <p class="card-text">Price = ₹ 399 per cup</p>
+          <a href="https://www.swiggy.com/restaurants/barista-ashok-nagar-jaipur-209204" target="_blank" class="btn btn-primary" >Order Cappuccino</a>
+        </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="/My Images/Cold coffee.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cold coffee</h5>
+          <p class="card-text">Cold coffee for some of the warm and tiring days.</p>
+          <p class="card-text">Price = ₹ 199 per cup</p>
+          <a href="https://www.swiggy.com/restaurants/starbucks-coffee-sp-marg-c-scheme-jaipur-402635" target="_blank" class="btn btn-primary" >Order Cold coffee</a>
+        </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="My Images/Cake.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cake</h5>
+          <p class="card-text">Here's a cake we can bake for your Birthday or any other special occasion.</p>
+          <p class="card-text">Price = Based on the flavour</p>
+          <a href="https://www.swiggy.com/restaurants/nibs-cakes-and-bakes-godam-industrial-area-bais-godam-jaipur-179480" target="_blank" class="btn btn-primary" >Order Cake</a>
+        </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="/My Images/Pastry jeenu.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pastry</h5>
+          <p class="card-text">To change your mood and taste here's Pastry of all flavours.</p>
+          <p class="card-text">Price = ₹ 99 per piece</p>
+          <a href="https://www.swiggy.com/restaurants/sweet-truth-cake-and-desserts-kartarpura-bais-godam-jaipur-223161" target="_blank" class="btn btn-primary" >Order Pastry</a>
+        </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+          <img src="/My Images/Icecreamjeenu.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ice Cream</h5>
+          <p class="card-text">For a cold and a sweet, tangy or any flavour to eat here's a Ice Cream to Eat</p>
+          <p class="card-text">Price = ₹ 99 per piece</p>
+          <a href="https://www.swiggy.com/restaurants/nic-natural-ice-creams-sindhi-camp-jaipur-254590" target="_blank" class="btn btn-primary" >Order Ice Cream</a>
+        </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="/My Images/Prawn Biryani.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Prawn Biryani</h5>
+          <p class="card-text">Enough of Veg!! Now let's get some Non-Veg Prawn Biryani</p>
+          <p class="card-text">Price = ₹ 499 per plate</p>
+          <a href="https://www.swiggy.com/restaurants/biryani-by-kcco-sindhi-camp-banipark-jaipur-447193" target="_blank" class="btn btn-primary" >Order Prawn Biryani</a>
+        </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+          <img src="/My Images/Ghewar.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ghewar</h5>
+            <p class="card-text">I want you to enjoy this amazing Rajasthani dish.</p>
+            <p class="card-text">Price = ₹ 699</p>
+            <a href="https://www.swiggy.com/restaurants/kanha-c-scheme-jaipur-44439" target="_blank" class="btn btn-primary" >Order Ghewar</a>
+          </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="/My Images/Mexican coins.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Mexican Coins</h5>
+          <p class="card-text">Hey, I said you that we give you the top quality, worldwide cuisine so, as I promised I have got you this.</p>
+          <p class="card-text">Price = ₹ 499 for 6</p>
+          <a href="https://youtu.be/7uyOcS8QCTg" target="_blank" class="btn btn-primary" >Order Mexican Coins</a>
+        </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="/My Images/Caramel Custard.jpg" class=card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Caramel Custard</h5>
+          <p class="card-text">I have got something to sweeten up your face and taste, here's Caramel Custard or Crème caramel that can help.</p>
+          <p class="card-text">Price = ₹ 399 per piece</p>
+          <a href="https://www.youtube.com/watch?v=eC3LXKCvi5I" target="_blank" class="btn btn-primary" >Order Caramel Custard</a>
+        </div>
+      </div>
+      <div class="card col-md-4 m-2 px-0" style="width: 18rem;">
+        <img src="/My Images/Pavbhaji.jpg" class=card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pav Bhaji</h5>
+          <p class="card-text">Do you know the world's most popular street food? Yes, You are right. Come on order a Pav Bhaji at amazing prices.</p>
+          <p class="card-text">Price = ₹ 40 per plate</p>
+          <a href="https://www.swiggy.com/restaurants/pandit-ji-famous-pav-bhaji-bhelpuri-mansarovar-jaipur-57034" target="_blank" class="btn btn-primary" >Order Pav Bhaji</a>
+        </div>
+      </div>
+  </div>
+  <div>
+  </div>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="text-muted">© 2022 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+            <use xlink:href="#twitter"></use>
+          </svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+            <use xlink:href="#instagram"></use>
+          </svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24">
+            <use xlink:href="#facebook"></use>
+          </svg></a></li>
+    </ul>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+</body>
+
+</html>
